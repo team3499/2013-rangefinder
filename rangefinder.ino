@@ -6,6 +6,8 @@
 #define Range3b 9
 #define Range4a 11
 #define Range4b 12
+
+// One time setup for range finding
 void setup() {
   pinMode(Range1a, INPUT);
   pinMode(Range1b, OUTPUT);
